@@ -1,0 +1,14 @@
+{
+    "name": "DevOps Portfolio",
+    "short_name": "Portfolio",
+    "icons": [
+        {
+            "src": "/assets/favicon.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
+        }
+    ],
+    "theme_color": "#64ffda",
+    "background_color": "#1e1e1e",
+    "display": "standalone"
+} 
