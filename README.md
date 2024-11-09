@@ -2,7 +2,7 @@
 
 A minimal, terminal-themed portfolio website designed specifically for DevOps engineers and Cloud architects. Features a clean, dark interface with terminal-like aesthetics and smooth animations.
 
-![Portfolio Preview](preview.png)
+<!-- ![Portfolio Preview](preview.png) -->
 
 ## 🚀 Features
 
@@ -44,9 +44,9 @@ portfolio/
 
 2. Open `index.html` in your browser:
    - Using Python's built-in server:
-```bash
-     python -m http.server 8000
-```
+   ```bash
+        python -m http.server 8000
+   ```
    - Using VS Code's Live Server extension:
      - Install "Live Server" extension
      - Right-click on `index.html`
