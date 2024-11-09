@@ -261,14 +261,14 @@ button:hover {
     color: var(--secondary-color);
     text-decoration: none;
     font-size: 0.9em;
-    padding: 6px 10px;
+    padding: 8px 12px;
     border-radius: 4px;
     background: transparent;
     border: 1px solid var(--secondary-color);
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 }
 
 .social-links a:hover {
@@ -277,7 +277,7 @@ button:hover {
     transform: translateY(-2px);
 }
 
-.social-links i {
+.social-links .icon-text {
     font-size: 0.9em;
 }
 
@@ -330,4 +330,10 @@ button:hover {
     color: var(--secondary-color);
     line-height: 1.6;
     white-space: pre-line;
+}
+
+.social-icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
 }
