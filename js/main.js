@@ -57,6 +57,22 @@ function initTypewriter() {
     });
 }
 
+// Add smooth scrolling for navigation links
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     populateProjects();

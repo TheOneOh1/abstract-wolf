@@ -19,6 +19,11 @@
                 <span class="maximize"></span>
             </div>
             <div class="terminal-title">devops@portfolio:~$</div>
+            <nav class="terminal-nav">
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+            </nav>
         </div>
         
         <div class="terminal-content">
@@ -54,11 +59,13 @@
                             </svg>
                             <span class="icon-text">Phone</span>
                         </a>
+                        <a href="assets/resume.pdf" target="_blank" title="Resume">
+                            <svg class="social-icon" viewBox="0 0 24 24">
+                                <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+                            </svg>
+                            <span class="icon-text">Resume</span>
+                        </a>
                     </div>
-                    <button onclick="window.open('assets/resume.pdf')" class="download-btn">
-                        <span class="btn-text">Download Resume</span>
-                        <span class="btn-icon">⭳</span>
-                    </button>
                 </div>
             </section>
 
@@ -99,6 +106,67 @@
                 <h2 class="section-title">Featured Projects</h2>
                 <div class="projects-grid">
                     <!-- Project cards will be populated via JavaScript -->
+                </div>
+            </section>
+
+            <section id="skills" class="terminal-section">
+                <div class="command-prompt">$ cat skills.txt</div>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Cloud & Infrastructure</h3>
+                        <ul>
+                            <li>AWS (EC2, S3, RDS, Lambda)</li>
+                            <li>Terraform</li>
+                            <li>CloudFormation</li>
+                            <li>Infrastructure as Code</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Containerization & Orchestration</h3>
+                        <ul>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li>Helm</li>
+                            <li>ArgoCD</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>CI/CD & Automation</h3>
+                        <ul>
+                            <li>Jenkins</li>
+                            <li>GitHub Actions</li>
+                            <li>GitLab CI</li>
+                            <li>Ansible</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Monitoring & Logging</h3>
+                        <ul>
+                            <li>Prometheus</li>
+                            <li>Grafana</li>
+                            <li>ELK Stack</li>
+                            <li>CloudWatch</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Programming & Scripting</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Bash/Shell</li>
+                            <li>YAML/JSON</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Security & Compliance</h3>
+                        <ul>
+                            <li>IAM & Security Groups</li>
+                            <li>SSL/TLS</li>
+                            <li>Security Best Practices</li>
+                            <li>Compliance Frameworks</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </div>
