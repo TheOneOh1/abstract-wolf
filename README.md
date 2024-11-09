@@ -67,6 +67,45 @@ To stop the container:
 docker-compose down
 ```
 
+### GitHub Pages Deployment
+
+1. Create a GitHub repository:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/username/repository.git
+   git push -u origin main
+   ```
+
+2. Configure GitHub Pages:
+   - Go to your repository on GitHub
+   - Navigate to Settings > Pages
+   - Under "Source", select:
+     - Branch: `main`
+     - Folder: `/ (root)`
+   - Click "Save"
+
+3. Enable GitHub Pages:
+   - Your site will be published at: `https://username.github.io/repository`
+   - GitHub will provide the URL in the Pages settings
+
+4. Updating the Site:
+   ```bash
+   # Make your changes
+   git add .
+   git commit -m "Update website content"
+   git push origin main
+   ```
+   - GitHub Pages will automatically rebuild and deploy your site
+
+5. Troubleshooting:
+   - Check Actions tab for build status
+   - Ensure index.html is in root directory
+   - Verify all asset paths are relative
+   - Check GitHub Pages settings for any error messages
+
 ## 🔧 Customization
 
 ### Personal Information
